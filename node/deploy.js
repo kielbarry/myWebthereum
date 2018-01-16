@@ -21,6 +21,7 @@ function deployContract() {
         gasPrice: web3.utils.toHex(20000000000),
         data: '0x' + bytecode,
     };
+    console.log("adsfa")
     console.log("contract deploying...");
     sendRaw(rawContractTx);
   });
